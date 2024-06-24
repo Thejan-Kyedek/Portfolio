@@ -1,0 +1,463 @@
+body {
+    font-family: "EB Garamond", serif;
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+header {
+    position: fixed;
+    top: 1px;
+    margin: 0 auto;
+    width: 100vw;
+    z-index: 10;
+}
+
+nav {
+    background-color: #04030F;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid whitesmoke 1px;
+}
+
+.nav-button {
+    background-color: #04030F;
+    font-family: "EB Garamond";
+    font-size: 15px;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 10px, 50px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#extra-access-contact {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 0px 20px;
+}
+
+#extra-access-contact-second {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 0px 20px;
+    background-color: #772748;
+}
+
+.mini-form {
+    display: none; 
+    /* RAH RAH RAH IMPORTANT */
+    position: fixed;
+    bottom: 90px;
+    right: 10px;
+    padding: 10px 20px;
+
+
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+    border-radius: 0px 20px;
+    border: solid, 5px, #04030F;
+
+    font-size: 5px;
+}
+
+.mini-form h2 {
+    font-size: 20px;
+    width: 80px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.mini-form fieldset {
+    padding: 0px;
+}
+
+.mini-form legend,label {
+    font-size: 15px;
+    padding: 5px;
+}
+
+#form-button {
+    width: 200px;
+    padding: 0px;
+}
+
+.nav-button:hover {
+    background-color: whitesmoke;
+    color: #04030F;
+    cursor: pointer;
+    border-radius: 10px; 
+    font-weight: bold;
+}
+
+h1 {
+    display: inline-block;
+    color: whitesmoke;
+    margin: 0 auto;
+    margin-bottom: 10;
+    margin-top: 10;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 5px 5px 5px #255F85;
+    font-size: 100px;
+    background-image: url("J Starry Paint.jpeg");
+    padding: 50px;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: solid whitesmoke 1px;
+}
+
+h2 {
+    display: block, flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+    text-align: center;
+    text-shadow: 5px 5px 5px #04030F;
+    border-radius: 0px;
+    font-size: 45px;
+    padding: 30px 50px;
+    background-color: #5F1A37;
+}
+
+h3 {
+    display: block, flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: whitesmoke;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+    text-align: center;
+    text-shadow: 5px 5px 5px #04030F;
+    border-radius: 0px;
+    font-size: 35px;
+    padding: 30px 50px;
+    background-color: #5F1A37;
+}
+
+
+#photography-sub-heading {
+    background-color: #056066;
+}
+
+.course-work-sub-heading {
+    background-color: #776885;
+}
+
+.experience-sub-heading {
+    background-color: #255F85;
+}
+
+.media-sub-heading {
+    background-color: #29a592;
+ 
+}
+
+.art-sub-heading {
+    background-color: #243119;
+}
+
+.certificates-sub-heading {
+    background-color: #96371d;
+}
+
+.spacing {
+    padding: 0px;
+    margin: 5px;
+    background-color: whitesmoke;
+}
+
+
+
+.profile-photo {
+    max-width: 25vw;
+    min-width: 200px;
+    width: 500px;
+    height: auto;
+    border-radius: 20px 0px;
+    border: 10px solid #04030F;
+    padding: 5px;
+    margin: 10px;
+}
+
+#intro-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+#photography {
+    background-image: url("Pan Mosquito Valley.jpeg");
+}
+
+#course-work {
+    background-image: url("B Bookshelf.jpeg");
+}
+
+#experience-title {
+    background-image: url("Photograhpy Bench.JPG");
+    color: #04030F;
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+#media-title {
+    background-image: url("D Books Header.jpeg");
+    color: #04030F;
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+
+#certificates-title {
+    background-image: url("Certificates Beach.JPG");
+    color: #04030F;
+    text-shadow: 5px 5px 5px whitesmoke;
+}
+
+.photo-display {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: 50px;
+}
+
+
+.art-display {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: 50px;
+}
+
+.photo {
+    max-width: 20vw;
+    min-width: 200px;
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    border-radius: 20px 0px;
+    border: 10px solid #04030F;
+    padding: 10px;
+    margin: 10px;
+}
+
+.photo:hover {
+    border: none;
+    zoom: 1.15;
+    padding: 0px;
+}
+
+.art {
+    max-width: 30vw;
+    min-width: 400px;
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    border-radius: 20px 0px;
+    border: 10px solid #04030F;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image-headings {
+    display: inline-block;
+    max-width: 25vw;
+    min-width: 200px;
+    width: 500px;
+    height: auto;
+    border-radius: 20px 0px;
+    border: 10px solid #04030F;
+    padding: 3px;
+    margin: 30px;
+}
+
+.my-titles {
+    display: block;
+    max-width: 25vw;
+    min-width: 200px;
+    width: 500px;
+    height: auto;
+    margin: 10px;
+    background-color: #04030F;
+    color: whitesmoke;
+    border-radius: 0px 20px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+p {
+    display: block;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #04030F;
+    color: whitesmoke;
+    border-radius: 0px 20px;
+    font-size: 20px;
+}
+
+.button-collection {
+    background-color: #04030F;
+    border-radius: 10px;
+    display: flex block;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: solid whitesmoke 1px;
+}
+
+.description-button {
+    width: 40vw;
+    background-color: #04030F;
+    font-family: "EB Garamond";
+    font-size: 30px;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 10px, 50px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block, flex;
+    justify-content: center;
+}
+
+.description-button:hover {
+    background-color: whitesmoke;
+    color: #04030F;
+    cursor: pointer;
+    border-radius: 10px; 
+    font-weight: bold;
+    border: 1px solid #04030F;
+}
+
+.button-breakdown {
+    display: inline-block;
+    border: solid whitesmoke 1px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    width: 40vw;
+}
+
+.button-box {
+    margin: 10px;
+}
+
+.pdf {
+    width: 100%;
+    aspect-ratio: 4/3
+}
+.pdf, html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    display: block, flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: whitesmoke;
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+    flex-direction: row;
+    text-align: center;
+    text-shadow: 5px 5px 5px #04030F;
+    font-size: 35px;
+    padding: 30px 50px;
+    background-color: #5F1A37;
+    border-radius: 0px 20px;
+}
+
+h4:hover {
+    width: 50%;
+    border-radius: 20px 20px;
+    background-color: #772748;
+}
+
+iframe {
+    display: flex;
+    margin: 0 auto;
+    justify-self: center;
+}
+
+#inkwells {
+    display: inline, flex;
+    width: auto;
+}
+
+fieldset {
+    display: block;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #04030F;
+    color: whitesmoke;
+    border-radius: 0px 20px;
+    font-size: 20px;
+}
+.fieldset-change:hover {
+    background-color: whitesmoke;
+    color: #04030F;
+    text-shadow: 1px 1px 1px #776885;
+}
+
+form {
+    display: block, flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+    text-align: center;
+    text-shadow: 5px 5px 5px #04030F;
+    border-radius: 0px;
+    font-size: 45px;
+    padding: 30px 50px;
+    background-color: #ffffff;
+}
+
+
+legend {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #04030F;
+    color: whitesmoke;
+    border: solid 1px whitesmoke;
+    border-radius: 0px 20px;
+    font-size: 20px;
+}
+.special-spacing {
+    margin: 30px;
+    background-color: whitesmoke;
+}
+
+//Breakpoints for nav bar for big screens
+@media (width <= 900px) {
+    .special-spacing {
+        margin: 50px;
+    }
+}
+
+@media (width <= 500px) {
+    .special-spacing {
+        margin: 70px;
+    }
+}
